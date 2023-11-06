@@ -1,0 +1,270 @@
+body{
+    background-color:#171515;
+  }
+  #Head{
+    display:flex;
+    background-color: #000;
+  justify-content: space-around;
+  align-items: center;
+  
+  
+    color:#FFF;
+  
+  }
+  .barmenu{
+  justify-content: space-around;
+    display:flex;
+    
+  }
+  .ligne{
+    margin-top: 10px;
+    border: 1px solid #e0a94f;
+  }
+  .achat{
+   justify-content: flex-end;
+  }
+  .logo {
+  width: 20%;
+  object-fit: contain;
+    
+  }
+  #bann{
+  
+    background-size: 100% auto;
+    background-position: center;
+    color:#FFF;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+     rgba(0, 0, 0, 0.5)), url(IMA/SvN.jpg);
+    height: 400px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  
+  }
+  .BanTitre{
+  
+    font-size:24px;
+    font-family: luxurious roman;
+    color: #FFDD8E;
+  
+  
+  
+  }
+  
+  
+  .Button{
+    align-content:center;
+  
+    font-size:24px;
+    font-family: luxurious roman;
+    width:165px;
+    background-color:#000;
+    border: 3px solid #C0C0C0;
+    border-radius:10px;
+   
+    margin-left:100px;
+    margin-top: 20px;
+  }
+  .ButtonDes{
+    color: #C0C0C0;
+  }
+    a:link {
+      text-decoration:none;
+    }
+  a:visited {
+    text-decoration:none;
+  }
+  a:hover {
+    text-decoration:none;
+  }
+  a:active {
+    text-decoration:none;
+  }
+  .id {
+    color:#FFF;
+    display:flex;
+    
+  }
+  .block1{
+    margin-top: 100px;
+    display:flex;
+    justify-content: space-around;
+    height:500 px;
+  }
+  .Effet{
+    background-color:#FFDD8E ;
+    Color:#000;
+    border: 3px solid;
+    border-radius: 10px;
+    border-color:#C0C0C0;
+    margin: 3% 3%;
+    padding: 2% 2%;
+    height:100px;
+    align-items:center;
+  }
+  
+  .Perso{
+    border: 5px solid ;
+    border-radius: 10px;
+  
+  
+    margin-right:40 px;
+  
+    width: 30%;
+  
+  
+  }
+  .Légendaire {
+    border-image: radial-gradient(#3723d4, #a85ceb , #cf0c79, #8ebdff ) 4;
+  }
+  .Epique{
+    border-image: linear-gradient( #ffb829,  #fbf078 , #fbd62a ) 4;
+  }
+  .Rare{
+     border-image: linear-gradient( #7d776d ,#cbbea4,  #e8e5c9 , #9e9777 ) 4;
+    
+  }
+  .Commun{
+    border-image: linear-gradient( #8f5925 ,#db9b46,  #e0a94f , #b36d29 ) 4;
+  }
+  .Sper{
+   
+    font-size: 14px;
+    color:#7C7561;
+    border-radius: 0px;
+    background-color:#EEEEEE;
+  
+    
+  }
+  
+  
+  
+  
+  
+  .T2{
+    text-align:center;
+    font-size: 20px;
+    font-family:luxurious roman;
+    color:#C0C0C0;
+    margin-right: 10%;
+  
+    margin-left: 10%;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color:#C0C0C0 ;
+  
+  
+  } 
+  .Héros{
+    text-align:center;
+    font-size: 20px;
+    font-family:luxurious roman;
+    color:#EEB97B;
+    margin-right: 10%;
+  
+    margin-left: 10%;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color:#EEB97B;
+  
+  
+  } 
+  
+  
+  #def{
+    width:50px;
+    height: 60px;
+    object-fit:contain;
+    margin-top: 4px;
+  
+  }
+  #Att{
+    width:50px;
+    height: 60px;
+    align-self: flex-start;
+    object-fit:contain;
+    margin-top: 3px;
+  
+  }
+  .cardfoot {
+    display: flex;
+  
+    justify-content: space-between;
+  }
+  .Monstre{
+    background-color:#000 ;
+  }
+  .Magie{
+     background-color:#103274
+  }
+  .Artéfact{
+     background-color:#4E4F4E ;
+  }
+  .Aslot{
+    position: relative;
+  }
+  .Dslot{
+   position: relative;
+  
+  }
+  .ValD{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 25px;
+    font-size: 20px;
+    font-family:luxurious roman;
+    color:#FFF;
+  
+  }
+  .ValA{
+    position: absolute;
+    margin-left: 24px;
+    margin-top: 26px;
+    font-size: 20px;
+    font-family:luxurious roman;
+    color:#FB090F;
+  }
+  .Type {
+    font-size: 18px;
+    font-family:luxurious roman;
+    color:#C0C0C0;
+    justify-content: center;
+    margin-bottom: 2px;
+    align-self: center;
+  
+  
+  }
+  .Type p{
+    margin: 0;
+  }
+  
+  .Mort {
+     margin-left: 18px;
+  }
+  .bg3{
+    width: 70%;
+    height: 70%;
+    min-height: 300px;
+    border: 5px solid;
+    box-shadow: 1px 1px 1px 1px;
+    border-image: linear-gradient( #909095,  #f4f6f6 , #9a9999) 4;
+    border-radius: 1px;
+    margin-right:10%;
+    margin-left:15%;
+    margin-top:8%;
+    
+    max-height: 260px;
+  }
+  .Spécial{
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 20px;
+  }
+  .SpécialElu{
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 28px;
+  }
+.Try{
+  animation: scroll 15s 0.5s linear infinite;
+}
