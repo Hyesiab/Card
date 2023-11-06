@@ -20,6 +20,10 @@ body{
     margin-top: 10px;
     border: 1px solid #e0a94f;
   }
+  .TextIntro{
+    font-size:24px;
+    font-family: luxurious roman;
+  }
   .achat{
    justify-content: flex-end;
   }
