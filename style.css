@@ -3,12 +3,22 @@ header{
   margin:0;
   padding:0;
 }
+footer{
+  background-color: #000;
+  height: 150px;
+  margin-top: 30px;
+}
+.footer2{
+  margin-top: 30px;
+}
 /* Aden est l'id du Body des cartes Humaines */
 #Aden{
-  background-image:url(IMA/AionEnv.jpg);
-  background-repeat: no-repeat;
+
   margin:0;
   padding:0;
+}
+.bannAden{background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+     rgba(0, 0, 0, 0.5)), url(IMA/AionEnv.jpg);
 }
 body{
   background: rgb(5,11,79);
@@ -26,10 +36,22 @@ body{
     color:#FFF;
   
   }
+
+  .footer1{
+    display:flex;
+    justify-content:space-evenly;
+    align-content: center;
+    margin-top: 40px;
+    
+  }
   .barmenu{
   justify-content: space-around;
     display:flex;
     
+  }
+  .Centrebannière1{
+    justify-content: center;
+    display:flex;
   }
   .ligne{
     margin-top: 10px;
@@ -47,19 +69,23 @@ body{
   object-fit: contain;
     
   }
-  #bann /* Bannière */{
+  .bann /* Bannière */{
   
     background-size: 100% auto;
     background-position: center;
     color:#FFF;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-     rgba(0, 0, 0, 0.5)), url(IMA/SvN.jpg);
+
     height: 400px;
     display:flex;
     justify-content:center;
     align-items:center;
   
   }
+  .bannindex {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+     rgba(0, 0, 0, 0.5)), url(IMA/SvN.jpg);
+  }
+
   .BanTitre{
   
     font-size:24px;
@@ -70,13 +96,18 @@ body{
   
   }
   .TextIntro /* texte introductif entre 2 ligne dorées */{
-    font-size:24px;
+    font-size:32px;
     font-family: luxurious roman;
     display: flex;
     justify-content: center;
     color:#EEB97B;
+    margin-top: 5px;
   }
-  
+  .Part1{
+    margin-top: 15px;
+    color:#EEB97B;
+    font-size: 22px;
+  }
   .Button{
     align-content:center;
   
@@ -90,9 +121,13 @@ body{
     margin-left:100px;
     margin-top: 20px;
   }
+  buttonplace{
+    margin-left:200px;
+  }
   /* Début Couleur des bouttons et enlevements du surligneurs sur les liens */
   .ButtonDes{
     color: #C0C0C0;
+    padding-left: 5px;
   }
     a:link {
       text-decoration:none;
@@ -179,9 +214,25 @@ body{
     justify-content: space-evenly;
     align-items: center;
     margin-top: 40px;
-    margin-left: 120px;
   
   }
+  .intromarge /* marge pour les textes sur index.html */ {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .marge{
+    margin-left: 230px;
+    
+  }
+  .BlockTuto /* Block les cartes + texte en bas */ {
+    width: auto;
+  }
+  .Tutoriel /*mise en page du block avec text sous les cartes index.html */ {
+    width:336px;
+    margin-top: 10px;
+  }
+
+
  .Présentation /* Présentation Texte de la 1er page index.html */{
     color:#FFF;
 
@@ -331,6 +382,11 @@ body{
     margin-top: 15px;
     margin-left: 20px;
   }
+  .Spécialoeilrouge{
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 25px;
+  }
   .SpécialElu{
     align-items: center;
     margin-top: 15px;
@@ -340,10 +396,10 @@ body{
   animation: scroll 15s 0.5s linear infinite;
 }
 .Article{
-  background-image:linear-gradient( #ffb829,  #fbf078 , #fbd62a );
+  background-image:linear-gradient(30deg, #ffb829,  #fbf078 , #fbd62a );
   background-clip:text;
   color:transparent;
-  display:flex;
+  /*display:flex;*/
 
 }
 /* en attente linear-gradient( #ffb829,  #fbf078 , #fbd62a ) 4
