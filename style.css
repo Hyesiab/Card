@@ -1,6 +1,21 @@
+
+header{
+  margin:0;
+  padding:0;
+}
+/* Aden est l'id du Body des cartes Humaines */
+#Aden{
+  background-image:url(IMA/AionEnv.jpg);
+  background-repeat: no-repeat;
+  margin:0;
+  padding:0;
+}
 body{
-    background-color:#171515;
-  }
+  background: rgb(5,11,79);
+  background: linear-gradient(90deg, rgba(5,11,79,1) 2%, rgba(27,74,190,1) 46%, rgba(5,16,66,1) 99%);
+  margin:0;
+  padding:0;
+}
   #Head{
     display:flex;
     background-color: #000;
@@ -32,7 +47,7 @@ body{
   object-fit: contain;
     
   }
-  #bann{
+  #bann /* Bannière */{
   
     background-size: 100% auto;
     background-position: center;
@@ -54,7 +69,13 @@ body{
   
   
   }
-  
+  .TextIntro /* texte introductif entre 2 ligne dorées */{
+    font-size:24px;
+    font-family: luxurious roman;
+    display: flex;
+    justify-content: center;
+    color:#EEB97B;
+  }
   
   .Button{
     align-content:center;
@@ -69,6 +90,7 @@ body{
     margin-left:100px;
     margin-top: 20px;
   }
+  /* Début Couleur des bouttons et enlevements du surligneurs sur les liens */
   .ButtonDes{
     color: #C0C0C0;
   }
@@ -84,18 +106,19 @@ body{
   a:active {
     text-decoration:none;
   }
+  /* Fin de la parenthèse Couleur des bouttons et enlevements du surligneurs sur les liens */
   .id {
     color:#FFF;
     display:flex;
     
   }
-  .block1{
+  .block1 /* Block contenant les 3 cartes alignés */{
     margin-top: 100px;
     display:flex;
     justify-content: space-around;
     height:500 px;
   }
-  .Effet{
+  .Effet /* texte des cartes */ {
     background-color:#FFDD8E ;
     Color:#000;
     border: 3px solid;
@@ -107,7 +130,7 @@ body{
     align-items:center;
   }
   
-  .Perso{
+  .Perso /* Corps des cartes */{
     border: 5px solid ;
     border-radius: 10px;
   
@@ -118,6 +141,7 @@ body{
   
   
   }
+  /* Début Style des bordures des cartes */
   .Légendaire {
     border-image: radial-gradient(#3723d4, #a85ceb , #cf0c79, #8ebdff ) 4;
   }
@@ -131,7 +155,8 @@ body{
   .Commun{
     border-image: linear-gradient( #8f5925 ,#db9b46,  #e0a94f , #b36d29 ) 4;
   }
-  .Sper{
+    /* Fin Style des bordures des cartes */
+  .Sper /* Bordure des images sur les cartes */{
    
     font-size: 14px;
     color:#7C7561;
@@ -141,11 +166,51 @@ body{
     
   }
   
+  .BlockCarte /* Block sur les cartes et descriptions à coté */ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 120px;
   
+  }
+  .BlockCarte1 /* Block sur les cartes artefact et magiques*/ {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 120px;
   
+  }
+ .Présentation /* Présentation Texte de la 1er page index.html */{
+    color:#FFF;
+
+ }
+ .Cadre{
+  display:flex;
   
+ }
+ .Espace{
+  margin-left: 20px;
+ }
+
+ .Description /* Présentation du block entre les images/texte sur index.html */ {
+  margin-left: 70px;
+  font-size: 18px;
+
+ }
+  .ImpTitre /* Titre important */ {
+    text-shadow:
+    0 0 7px #45a3ef,
+    0 0 10px #228feb,
+    0 0 21px #228feb,
+    0 0 42px #2f65eb,
+    0 0 82px #2f65eb,
+    0 0 92px #07175d,
+    0 0 151px #07175d;
+  }
   
-  .T2{
+  .T2 /* Nom des Cartes */{
     text-align:center;
     font-size: 20px;
     font-family:luxurious roman;
@@ -159,7 +224,7 @@ body{
   
   
   } 
-  .Héros{
+  .Héros /* Nom des Cartes pour les Héros */{
     text-align:center;
     font-size: 20px;
     font-family:luxurious roman;
@@ -190,11 +255,12 @@ body{
     margin-top: 3px;
   
   }
-  .cardfoot {
+  .cardfoot /*Bas des cartes */ {
     display: flex;
   
     justify-content: space-between;
   }
+  /* Début Couleurs uniformes des types de cartes */
   .Monstre{
     background-color:#000 ;
   }
@@ -204,6 +270,7 @@ body{
   .Artéfact{
      background-color:#4E4F4E ;
   }
+    /* Fin Couleurs uniformes des types de cartes */
   .Aslot{
     position: relative;
   }
@@ -228,7 +295,7 @@ body{
     font-family:luxurious roman;
     color:#FB090F;
   }
-  .Type {
+  .Type /* Police de la type de la carte */{
     font-size: 18px;
     font-family:luxurious roman;
     color:#C0C0C0;
@@ -245,7 +312,7 @@ body{
   .Mort {
      margin-left: 18px;
   }
-  .bg3{
+  .bg3 /* Images à l'intérieur des cartes */{
     width: 70%;
     height: 70%;
     min-height: 300px;
@@ -272,3 +339,16 @@ body{
 .Try{
   animation: scroll 15s 0.5s linear infinite;
 }
+.Article{
+  background-image:linear-gradient( #ffb829,  #fbf078 , #fbd62a );
+  background-clip:text;
+  color:transparent;
+  display:flex;
+
+}
+/* en attente linear-gradient( #ffb829,  #fbf078 , #fbd62a ) 4
+linear-gradient( #7d776d ,#cbbea4,  #e8e5c9 , #9e9777 ) 4
+linear-gradient( #8f5925 ,#db9b46,  #e0a94f , #b36d29 ) 4
+
+ /*
+
